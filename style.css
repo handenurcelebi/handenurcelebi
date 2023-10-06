@@ -93,7 +93,7 @@ blockquote p:last-child {
 /* Full size background image */
 html, #container, .inner { background-color:transparent;}
 html {
-  background:url(background.jpg) center center no-repeat fixed;
+  background:url(maincampus_hero.jpg) center center no-repeat fixed;
   background-size:cover;
 }
 body {
@@ -106,20 +106,7 @@ header, #content, footer {
   color:#FFFFFF; 
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background: none; /* Remove default background */
-}
 
-.background-image {
-    /* Set the background image using the 'url()' function */
-    background-image: url('maincampus_hero.jpeg'); /* Replace 'background.jpg' with your image file name */
-    background-size: cover; /* Scale the image to cover the entire container */
-    background-repeat: no-repeat; /* Prevent image from repeating */
-    background-attachment: fixed; /* Fixed background for scrolling effect */
-    /* Optionally, you can set other background properties like position, opacity, etc. */
-}
 
 /* Menu Links */
 ul.main-menu {
